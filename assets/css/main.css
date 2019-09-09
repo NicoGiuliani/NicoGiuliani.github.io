@@ -195,7 +195,11 @@ input, select, textarea {
 			width: -ms-max-content;
 			width: max-content;
 			padding-bottom: 0.5rem;
-			margin: 0 0 2rem 0;
+			margin: 0 auto 2rem auto;
+		}
+
+		h3.minor {
+			text-align: center;
 		}
 
 	h1 {
@@ -780,6 +784,7 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
+		justify-content: center;
 		margin-left: -1rem;
 		padding-left: 0;
 	}
@@ -1361,7 +1366,6 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					/*padding: 0 1.25rem 0 1.45rem;*/
 					padding: 0;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;

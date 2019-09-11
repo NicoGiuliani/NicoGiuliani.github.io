@@ -198,6 +198,10 @@ input, select, textarea {
 			margin: 0 auto 2rem auto;
 		}
 
+		h2.headline {
+			font-size: 1rem;
+		}
+
 		h3.minor {
 			text-align: center;
 		}
@@ -909,6 +913,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		text-align: center;
 	}
 
 		ul.icons li {

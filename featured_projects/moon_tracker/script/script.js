@@ -47,7 +47,7 @@ function getPhaseImg(decimalPhase) {
     var range = 360/30;
     var low = 360 - range/2;
     var high = (low + range) % 360;
-    var fileName = "img/moon phase/";
+    var fileName = "img/moon_phase/";
     if (degrees >= low || degrees < high) { fileName += 0; }
     for (var i = 0; i < 30; i++) {
         if (degrees >= low && degrees < high) { fileName += i; } 

@@ -1154,7 +1154,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("../../images/overlay.png");
+			background-image: url("../../images/downtown_spokane.jpg");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -1195,6 +1195,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
+		background-color: rgba(0, 0, 0, 0.75);
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1559,7 +1560,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(27, 31, 34, 0.9);
 			border-radius: 4px;
 			opacity: 0;
 		}
